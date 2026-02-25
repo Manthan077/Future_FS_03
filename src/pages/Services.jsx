@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Services() {
   const services = [
     {
@@ -184,9 +186,9 @@ export default function Services() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.3)'}}>Ready to Get Started?</h2>
           <p className="text-xl text-white/90 mb-8" style={{textShadow: '1px 1px 3px rgba(0,0,0,0.3)'}}>Choose a membership plan that works for you</p>
-          <a href="/membership" className="inline-block bg-white text-orange-500 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition transform hover:scale-105 shadow-xl">
+          <Link to="/membership" className="inline-block bg-white text-orange-500 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition transform hover:scale-105 shadow-xl">
             View Membership Plans →
-          </a>
+          </Link>
         </div>
       </section>
     </div>
