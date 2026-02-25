@@ -1,16 +1,119 @@
-# React + Vite
+# 💪 Max Fitness Pro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive fitness center website built with React and Tailwind CSS. Features a sleek dark/light theme toggle, interactive gallery, membership plans, and seamless user experience.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 **Dark/Light Theme** - Smooth theme switching with persistent preferences
+- 📱 **Fully Responsive** - Optimized for all devices (mobile, tablet, desktop)
+- 🖼️ **Interactive Gallery** - Filterable image gallery with lightbox view
+- 💳 **Membership Plans** - Clear pricing and plan comparison
+- 📍 **Google Maps Integration** - Easy location finding
+- 💬 **WhatsApp Integration** - Direct contact via WhatsApp
+- ⚡ **Fast Performance** - Built with Vite for lightning-fast load times
+- 🎯 **Modern UI/UX** - Smooth animations and transitions
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** - Latest React with modern hooks
+- **Vite 7** - Next-generation frontend tooling
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **React Router DOM 7** - Client-side routing
+- **ESLint** - Code quality and consistency
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone the repository
+git clone <repository-url>
+
+# Navigate to project directory
+cd "Max Fitness Pro"
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## 🛠️ Available Scripts
+
+```bash
+npm run dev      # Start development server (http://localhost:5173)
+npm run build    # Build for production
+npm run preview  # Preview production build
+npm run lint     # Run ESLint
+```
+
+## 📁 Project Structure
+
+```
+Max Fitness Pro/
+├── public/              # Static assets (images, logo)
+├── src/
+│   ├── components/      # Reusable components
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── LoadingSpinner.jsx
+│   │   └── ScrollToTop.jsx
+│   ├── context/         # React context
+│   │   └── ThemeContext.jsx
+│   ├── pages/           # Page components
+│   │   ├── Home.jsx
+│   │   ├── Services.jsx
+│   │   ├── Membership.jsx
+│   │   ├── Gallery.jsx
+│   │   ├── About.jsx
+│   │   └── Contact.jsx
+│   ├── App.jsx          # Main app component
+│   ├── main.jsx         # Entry point
+│   └── index.css        # Global styles
+├── package.json
+└── README.md
+```
+
+## 🎨 Theme System
+
+The app features a custom theme system with:
+- Persistent theme storage (localStorage)
+- Smooth transitions between themes
+- Theme-aware components
+- Optimized for readability in both modes
+
+## 🌐 Pages
+
+- **Home** - Hero section, features, testimonials, CTA
+- **Services** - Detailed service offerings with categories
+- **Membership** - Pricing plans and benefits
+- **Gallery** - Filterable image gallery of facilities
+- **About** - Gym information and team
+- **Contact** - Contact form, location map, social links
+
+## 🔧 Configuration
+
+The project uses:
+- **Vite** for build tooling
+- **Tailwind CSS 4** with custom configuration
+- **React Router** for navigation
+- **Context API** for state management
+
+## 🚀 Deployment
+
+```bash
+# Build for production
+npm run build
+
+# The dist/ folder contains production-ready files
+# Deploy to any static hosting service (Vercel, Netlify, etc.)
+```
+
+## 📄 License
+
+© 2024 Max Fitness Pro. All rights reserved.
+
+## 👨‍💻 Developer
+
+Built with ❤️ by Manthan Sharma for Max Fitness Pro, Mohali's premier fitness destination.
+
+---
