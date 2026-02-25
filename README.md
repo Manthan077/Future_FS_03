@@ -2,6 +2,10 @@
 
 A modern, responsive fitness center website built with React and Tailwind CSS. Features a sleek dark/light theme toggle, interactive gallery, membership plans, and seamless user experience.
 
+## 🌐 Live Demo
+
+👉 **[View Live Site →](https://max-fitness-pro.vercel.app/)**
+
 ## ✨ Features
 
 - 🎨 **Dark/Light Theme** - Smooth theme switching with persistent preferences
